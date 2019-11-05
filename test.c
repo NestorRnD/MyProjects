@@ -1,8 +1,6 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
-int main(){
-	cout<<"Hello!"<<endl;
-// add some changes to file
+int main(void){
+	printf("Hello!\n");
 	return 0;
 }
