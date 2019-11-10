@@ -1,0 +1,727 @@
+Script started on нд, 10-лис-2019 22:18:26 +0200
+]0;nestor@TNLMAIN: ~[01;32mnestor@TNLMAIN[00m:[01;34m~[00m$ #go to repos...
+]0;nestor@TNLMAIN: ~[01;32mnestor@TNLMAIN[00m:[01;34m~[00m$ cd work/GL/Embedded_C/MyRepos/
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos[00m$ #make i[Kdirs stack for easy navigation
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos[00m$ cd Other\ user/MyProjects/
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ pushd ../../MyProjects/
+~/work/GL/Embedded_C/MyRepos/MyProjects ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ pushd .
+~/work/GL/Embedded_C/MyRepos/MyProjects ~/work/GL/Embedded_C/MyRepos/MyProjects ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ dirs -v
+ 0  ~/work/GL/Embedded_C/MyRepos/MyProjects
+ 1  ~/work/GL/Embedded_C/MyRepos/MyProjects
+ 2  ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ #check repository
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git fetch 
+Enter passphrase for key '/home/nestor/.ssh/id_rsa': 
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git log --oneline --decorate --graph --all
+[?1h=* [33m5ccdd0b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m add some text files[m
+* [33m73197de[m Test using stash[m
+* [33m805486d[m Add some code to make the program to be more polite ;)[m
+* [33m5f8ba65[m For homework: unstage all added files[m
+* [33ma669070[m For homework: next commit other 2[m
+* [33mc3939b4[m For homework: created 5 files and commit first 3 of them[m
+* [33ma11b766[m Mod test.cpp[m
+[31m|[m * [33m42898b5[m[33m ([m[1;31morigin/C_version[m[33m, [m[1;32mC_version[m[33m)[m Edited test.c[m
+[31m|[m * [33ma407908[m Renamed test.cpp to test.c[m
+[31m|[m * [33m151605b[m Edit test.c[m
+[31m|[m[31m/[m  [m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # ou[K[Krepos up to date
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # go to user2
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ cd ~2
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ cd ~2# go to user2repos up to dategit log --oneline --decorate --graph --all
+[?1h=* [33m73197de[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Test using stash[m
+* [33m805486d[m Add some code to make the program to be more polite ;)[m
+* [33m5f8ba65[m For homework: unstage all added files[m
+* [33ma669070[m For homework: next commit other 2[m
+* [33mc3939b4[m For homework: created 5 files and commit first 3 of them[m
+* [33ma11b766[m Mod test.cpp[m
+[31m|[m * [33m42898b5[m[33m ([m[1;31morigin/C_version[m[33m)[m Edited test.c[m
+[31m|[m * [33ma407908[m Renamed test.cpp to test.c[m
+[31m|[m * [33m151605b[m Edit test.c[m
+[31m|[m[31m/[m  [m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ # go to user1
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ cd~[K ~1
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git checkout C_version 
+Switched to branch 'C_version'
+Your branch is up-to-date with 'origin/C_version'.
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # demo amend commit
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git status -s
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git commit --all [K[Ko[Klow[K[K[K[K[K
+--all               --edit              --message=          --reedit-message=   --template=         
+--amend             --file=             --no-edit           --reset-author      --untracked-files=  
+--author=           --fixup=            --no-verify         --reuse-message=    --untracked-files   
+--cleanup=          --include           --only              --signoff           --verbose           
+--dry-run           --interactive       --quiet             --squash=           --verify            
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git commit --allow-empty -m "add empty commit"
+[C_version 0606293] add empty commit
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git log --
+Display all 100 possibilities? (y or n)
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git log --oneline 
+[?1h=[33m0606293[m add empty commit[m
+[33m42898b5[m Edited test.c[m
+[33ma407908[m Renamed test.cpp to test.c[m
+[33m151605b[m Edit test.c[m
+[33m92d6600[m Update test.cpp[m
+[33m8a61906[m Create test.cpp[m
+[33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ #we have empty commit/ [K[K. we can remove it
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git commit --amend 
+On branch C_version
+Your branch is ahead of 'origin/C_version' by 1 commit.
+  (use "git push" to publish your local commits)
+Untracked files:
+	[31mtest[m
+
+No changes
+You asked to amend the most recent commit, but doing so would make
+it empty. You can repeat your command with --allow-empty, or you can
+remove the commit entirely with "git reset HEAD^".
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ #add some usefull things
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ cat >.gitignore
+test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ ls
+LICENSE  README.md  [0m[01;32mtest[0m  test.c
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ cat >makefile
+test: test.c
+	gcc -o @ $@ $^
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git status -s
+[31m??[m .gitignore
+[31m??[m makefile
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git add .gitignore makefile 
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git add .gitignore makefile [15Pstatus -s
+[32mA[m  .gitignore
+[32mA[m  makefile
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ #now commit changes
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git commit -m "add .gitignore and makefile"
+[C_version b3a5477] add .gitignore and makefile
+ 2 files changed, 3 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 makefile
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git log --oneline --decorate
+[?1h=[33mb3a5477[m[33m ([m[1;36mHEAD -> [m[1;32mC_version[m[33m)[m add .gitignore and makefile[m
+[33m0606293[m add empty commit[m
+[33m42898b5[m[33m ([m[1;31morigin/C_version[m[33m)[m Edited test.c[m
+[33ma407908[m Renamed test.cpp to test.c[m
+[33m151605b[m Edit test.c[m
+[33m92d6600[m Update test.cpp[m
+[33m8a61906[m Create test.cpp[m
+[33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git log --oneline --decorate --graph
+[?1h=* [33mb3a5477[m[33m ([m[1;36mHEAD -> [m[1;32mC_version[m[33m)[m add .gitignore and makefile[m
+* [33m0606293[m add empty commit[m
+* [33m42898b5[m[33m ([m[1;31morigin/C_version[m[33m)[m Edited test.c[m
+* [33ma407908[m Renamed test.cpp to test.c[m
+* [33m151605b[m Edit test.c[m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git log --oneline --decorate --graph[Kcommit -m "add .gitignore and makefile"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K --amend 
+[?1000h[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;51r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[51;1H"~/work/GL/Embedded_C/MyRepos/MyProjects/.git/COMMIT_EDITMSG" 15L, 423C[>c[27m[23m[m[H[2J[1;1H[93madd .gitignore and makefile[m
+
+[96m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Sun Nov 10 22:35:01 2019 +0200
+#
+# On branch [m[38;5;224mC_version[m
+[96m# Your branch is ahead of '[m[38;5;224morigin/C_version[m[96m' by 2 commits.
+#   (use "git push" to publish your local commits)
+#
+# [m[38;5;81mChanges to be committed:[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  .gitignore[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  makefile[m
+[96m#[m
+[94m~                                                                                                                             [17;1H~                                                                                                                             [18;1H~                                                                                                                             [19;1H~                                                                                                                             [20;1H~                                                                                                                             [21;1H~                                                                                                                             [22;1H~                                                                                                                             [23;1H~                                                                                                                             [24;1H~                                                                                                                             [25;1H~                                                                                                                             [26;1H~                                                                                                                             [27;1H~                                                                                                                             [28;1H~                                                                                                                             [29;1H~                                                                                                                             [30;1H~                                                                                                                             [31;1H~                                                                                                                             [32;1H~                                                                                                                             [33;1H~                                                                                                                             [34;1H~                                                                                                                             [35;1H~                                                                                                                             [36;1H~                                                                                                                             [37;1H~                                                                                                                             [38;1H~                                                                                                                             [39;1H~                                                                                                                             [40;1H~                                                                                                                             [41;1H~                                                                                                                             [42;1H~                                                                                                                             [43;1H~                                                                                                                             [44;1H~                                                                                                                             [45;1H~                                                                                                                             [46;1H~                                                                                                                             [47;1H~                                                                                                                             [48;1H~                                                                                                                             [49;1H~                                                                                                                             [50;1H~                                                                                                                             [m[51;109H1,26[10CУ[51;124Hс[51;125Hе[51;1H"~/work/GL/Embedded_C/MyRepos/MyProjects/.git/COMMIT_EDITMSG" 15L, 423C[37C    [10C   [1;26H[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\]2;COMMIT_EDITMSG (~/work/GL/Embedded_C/MyRepos/MyProjects/.git) - VIM]1;COMMIT_EDITMSG[?12l[?25h[?25l[51;99H~@k[1;26H[51;99H   [1;25H[51;109H1,25[10CУ[51;124Hс[51;125Hе[1;25H[?12l[?25h[?25l[51;99H~@k[1;25H[51;99H   [1;24H[51;112H4[1;24H[?12l[?25h[?25l[51;99H~@k[1;24H[51;99H   [1;23H[51;112H3[1;23H[?12l[?25h[?25l[51;99H~@k[1;23H[51;99H   [1;22H[51;112H2[1;22H[?12l[?25h[?25l[51;99H~@k[1;22H[51;99H   [1;21H[51;112H1[1;21H[?12l[?25h[?25l[51;99H~@k[1;21H[51;99H   [1;20H[51;112H0[1;20H[?12l[?25h[?25l[51;99H~@k[1;20H[51;99H   [1;19H[51;111H19[1;19H[?12l[?25h[?25l[51;99H~@k[1;19H[51;99H   [1;18H[51;112H8[1;18H[?12l[?25h[?25l[51;99H~@k[1;18H[51;99H   [1;17H[51;112H7[1;17H[?12l[?25h[?25l[51;99H~@k[1;17H[51;99H   [1;16H[51;112H6[1;16H[?12l[?25h[?25l[51;99H~@k[1;16H[51;99H   [1;15H[51;112H5[1;15H[?12l[?25h[?25l[51;99H~@k[1;15H[51;99H   [1;14H[51;112H4[1;14H[?12l[?25h[?25l[51;99H~@k[1;14H[51;99H   [1;13H[51;112H3[1;13H[?12l[?25h[?25l[51;99H~@k[1;13H[51;99H   [1;12H[51;112H2[1;12H[?12l[?25h[?25l[51;99H~@k[1;12H[51;99H   [1;11H[51;112H1[1;11H[?12l[?25h[?25l[51;99H~@k[1;11H[51;99H   [1;10H[51;112H0[1;10H[?12l[?25h[?25l[51;99H~@k[1;10H[51;99H   [1;9H[51;111H9 [1;9H[?12l[?25h[?25l[51;99H~@k[1;9H[51;99H   [1;8H[51;111H8[1;8H[?12l[?25h[?25l[51;99H~@k[1;8H[51;99H   [1;7H[51;111H7[1;7H[?12l[?25h[?25l[51;99H~@k[1;7H[51;99H   [1;6H[51;111H6[1;6H[?12l[?25h[?25l[51;99H~@k[1;6H[51;99H   [1;5H[51;111H5[1;5H[?12l[?25h[?25l[51;99H~@k[1;5H[51;99H   [1;4H[51;111H4[1;4H[?12l[?25h[?25l[51;99H<20>[1;4H[51;99H    [1;5H[51;111H5[1;5H[?12l[?25h[?25l[51;99Hf[1;5H[?12l[?25h[?25l[51;100Hi[1;5H[51;99H  [1;7H[51;111H7[1;7H[?12l[?25h[?25l[51;99Hl[1;7H[51;99H [1;8H[51;111H8[1;8H[?12l[?25h[?25l[51;99He[1;8H[51;99H [1;14H[51;111H14[1;14H[?12l[?25h[?25l[51;99Hs[1;14H[51;99H [1;14H[51;99Hcl[1;14H[51;99H  [1;14H[51;1H[1m-- В[51;5HС[51;6HТ[51;7HА[51;8HВ[51;9HК[51;10HА[51;11H --[m[51;14H[K[51;109H1,14[10CУ[51;124Hс[51;125Hе[1;14H[93m and makefile[m[1;27H[K]2;COMMIT_EDITMSG + (~/work/GL/Embedded_C/MyRepos/MyProjects/.git) - VIM]1;COMMIT_EDITMSG[1;14H[?12l[?25h[51;1H[K[1;13H[?25l[51;99H^[[1;13H[51;99H  [1;14H[51;109H1,13[10CУ[51;124Hс[51;125Hе[1;13H[?12l[?25h[?25l[51;99H^[[1;13H[51;99H  [1;13H[51;99H^[[1;13H[51;99H  [1;13H[?12l[?25h[?25l[51;99H~@k[1;13H[51;99H   [1;12H[51;112H2[1;12H[?12l[?25h[?25l[51;99H~@k[1;12H[51;99H   [1;11H[51;112H1[1;11H[?12l[?25h[?25l[51;99H~@k[1;11H[51;99H   [1;10H[51;112H0[1;10H[?12l[?25h[?25l[51;99H~@k[1;10H[51;99H   [1;9H[51;111H9 [1;9H[?12l[?25h[?25l[51;99H~@k[1;9H[51;99H   [1;8H[51;111H8[1;8H[?12l[?25h[?25l[51;99H~@k[1;8H[51;99H   [1;7H[51;111H7[1;7H[?12l[?25h[?25l[51;99H~@k[1;7H[51;99H   [1;8H[51;111H8[1;8H[?12l[?25h[?25l[51;99H~@k[1;8H[51;99H   [1;9H[51;111H9[1;9H[?12l[?25h[?25l[51;99H~@k[1;9H[51;99H   [1;10H[51;111H10[1;10H[?12l[?25h[?25l[51;99H~@k[1;10H[51;99H   [1;9H[51;111H9 [1;9H[?12l[?25h[?25l[51;99H~@k[1;9H[51;99H   [1;8H[51;111H8[1;8H[?12l[?25h[?25l[51;99H~@k[1;8H[51;99H   [1;7H[51;111H7[1;7H[?12l[?25h[?25l[51;99H~@k[1;7H[51;99H   [1;8H[51;111H8[1;8H[?12l[?25h[?25l[51;99H~@k[1;8H[51;99H   [1;9H[51;111H9[1;9H[?12l[?25h[?25l[51;99H~@k[1;9H[51;99H   [1;10H[51;111H10[1;10H[?12l[?25h[?25l[51;99H~@k[1;10H[51;99H   [1;11H[51;112H1[1;11H[?12l[?25h[?25l[51;99H~@k[1;11H[51;99H   [1;12H[51;112H2[1;12H[?12l[?25h[?25l[51;99H~@k[1;12H[51;99H   [1;13H[51;112H3[1;13H[?12l[?25h[?25l[51;99H~@k[1;13H[51;99H   [1;14H[51;112H4[1;14H[?12l[?25h[?25l[51;99Hi[1;14H[51;99H [1;14H[51;1H[1m-- В[51;5HС[51;6HТ[51;7HА[51;8HВ[51;9HК[51;10HА[51;11H --[m[51;109H[K[51;109H1,14[10CУ[51;124Hс[51;125Hе[1;14H[?12l[?25h[?25l[93me and makefile[m[51;112H5[1;15H[?12l[?25h[?25l[51;112H4[1;14H[?12l[?25h[?25l[51;112H3[1;13H[?12l[?25h[?25l[51;112H2[1;12H[?12l[?25h[?25l[51;112H1[1;11H[?12l[?25h[?25l[51;112H0[1;10H[?12l[?25h[?25l[51;111H9 [1;9H[?12l[?25h[?25l[51;111H8[1;8H[?12l[?25h[?25l[51;111H7[1;7H[?12l[?25h[?25l[51;111H6[1;6H[?12l[?25h[?25l[51;111H5[1;5H[?12l[?25h[?25l[51;111H4[1;4H[?12l[?25h[?25l[1C[93m .gitignore and makefile[m[51;111H5[1;5H[?12l[?25h[?25l[93mf .gitignore and makefile[m[51;111H6[1;6H[?12l[?25h[?25l[93mi .gitignore and makefile[m[51;111H7[1;7H[?12l[?25h[?25l[93ml .gitignore and makefile[m[51;111H8[1;8H[?12l[?25h[?25l[93me .gitignore and makefile[m[51;111H9[1;9H[?12l[?25h[?25l[93ms .gitignore and makefile[m[51;111H10[1;10H[?12l[?25h[?25l[51;111H9 [1;9H[?12l[?25h[?25l[51;111H8[1;8H[?12l[?25h[?25l[51;111H7[1;7H[?12l[?25h[?25l[51;111H6[1;6H[?12l[?25h[?25l[51;111H5[1;5H[?12l[?25h[?25l[93mnfiles .gitignore and makefile[m[51;111H6[1;6H[?12l[?25h[?25l[93mefiles .gitignore and makefile[m[51;111H7[1;7H[?12l[?25h[?25l[93mwfiles .gitignore and makefile[m[51;111H8[1;8H[?12l[?25h[?25l[93m files .gitignore and makefile[m[51;111H9[1;9H[?12l[?25h[51;1H[K[1;8H[?25l[51;99H^[[1;8H[51;99H  [1;9H[51;109H1,8[11CУ[51;124Hс[51;125Hе[1;8H[?12l[?25h[?25l[51;99H:[1;8H[51;99H[K[51;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[?1006l[?1002l".git/COMMIT_EDITMSG" 15L, 433C з[51;34Hа[51;35Hп[51;36Hи[51;37Hс[51;38Hа[51;39Hн[51;40Hи[51;41Hй[51;1H]2;Термінал - nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects]1;Термінал - nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects
+[?1l>[?12l[?25h[?1049l[C_version d1d9f73] add new files .gitignore and makefile
+ Date: Sun Nov 10 22:35:01 2019 +0200
+ 2 files changed, 3 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 makefile
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git commit --amend log --oneline --decorate --graph[K --graph
+[?1h=* [33md1d9f73[m[33m ([m[1;36mHEAD -> [m[1;32mC_version[m[33m)[m add new files .gitignore and makefile[m
+* [33m0606293[m add empty commit[m
+* [33m42898b5[m[33m ([m[1;31morigin/C_version[m[33m)[m Edited test.c[m
+* [33ma407908[m Renamed test.cpp to test.c[m
+* [33m151605b[m Edit test.c[m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # here we have empty commit/[K. now try to remove it
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git reset --soft 
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git reset --soft # here we have empty commit. now try to remove it[13Pgit log --oneline --decorate --graph
+[?1h=* [33md1d9f73[m[33m ([m[1;36mHEAD -> [m[1;32mC_version[m[33m)[m add new files .gitignore and makefile[m
+* [33m0606293[m add empty commit[m
+* [33m42898b5[m[33m ([m[1;31morigin/C_version[m[33m)[m Edited test.c[m
+* [33ma407908[m Renamed test.cpp to test.c[m
+* [33m151605b[m Edit test.c[m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git log --oneline --decorate --graph[19Preset --soft HEAD~2
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git reset --soft HEAD~2log --oneline --decorate --graph
+[?1h=* [33m42898b5[m[33m ([m[1;36mHEAD -> [m[1;32mC_version[m[33m, [m[1;31morigin/C_version[m[33m)[m Edited test.c[m
+* [33ma407908[m Renamed test.cpp to test.c[m
+* [33m151605b[m Edit test.c[m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git status -s
+[32mA[m  .gitignore
+[32mA[m  makefile
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git commit -m "add new files [K: .gitignore and git[K[K[Kmakefile"
+[C_version 30e5a02] add new files: .gitignore and makefile
+ 2 files changed, 3 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 makefile
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git commit -m "add new files: .gitignore and makefile"status -s[Klog --oneline --decorate --graph
+[?1h=* [33m30e5a02[m[33m ([m[1;36mHEAD -> [m[1;32mC_version[m[33m)[m add new files: .gitignore and makefile[m
+* [33m42898b5[m[33m ([m[1;31morigin/C_version[m[33m)[m Edited test.c[m
+* [33ma407908[m Renamed test.cpp to test.c[m
+* [33m151605b[m Edit test.c[m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git push 
+Enter passphrase for key '/home/nestor/.ssh/id_rsa': 
+Counting objects: 4, done.
+Delta compression using up to 2 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 431 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To github.com:NestorRnD/MyProjects.git
+   42898b5..30e5a02  C_version -> C_version
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git push log --oneline --decorate --graph
+[?1h=* [33m30e5a02[m[33m ([m[1;36mHEAD -> [m[1;32mC_version[m[33m, [m[1;31morigin/C_version[m[33m)[m add new files: .gitignore and makefile[m
+* [33m42898b5[m Edited test.c[m
+* [33ma407908[m Renamed test.cpp to test.c[m
+* [33m151605b[m Edit test.c[m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # switch to master
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git status -s
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git lostatus -scheckout master[1P# switch to[C[C[C[C[C[C[Cgit log --oneline --decorate --graph
+[?1h=* [33m5ccdd0b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m add some text files[m
+* [33m73197de[m Test using stash[m
+* [33m805486d[m Add some code to make the program to be more polite ;)[m
+* [33m5f8ba65[m For homework: unstage all added files[m
+* [33ma669070[m For homework: next commit other 2[m
+* [33mc3939b4[m For homework: created 5 files and commit first 3 of them[m
+* [33ma11b766[m Mod test.cpp[m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ #add some files
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ cat >new.txt
+new file1
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ cat >new.txt2.txt
+new file  2
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ mw new.txt new1.txt
+bash: mw: команду не знайдено
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ mw new.txt new1.txt[1P[1@v
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ mv new.txt new1.txtw[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pcat >new2.txt[1P.txt3.txt
+new file 3
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git status -s
+[31m??[m new1.txt
+[31m??[m new2.txt
+[31m??[m new3.txt
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git add new1.txt new2.txt 
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git[K[K[K# test reset [1@s[1@o[1@f[1@t[1@ 
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # test soft reset [8@git add new1.txt new2.tx[C[C[13Pstatus -s
+[32mA[m  new1.txt
+[32mA[m  new2.txt
+[31m??[m new3.txt
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git reset --soft 
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git reset --soft [4Pstatus -s
+[32mA[m  new1.txt
+[32mA[m  new2.txt
+[31m??[m new3.txt
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # nosing[1Pingtinghing[C[C[C changes
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # nothing changes[4Pgit status -sreset --soft [4Pstatus -s# test soft reset [1@n[1@o[1@w[1@ [C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1@m[1@i[1@x[1@w[1P[1@e[1@d
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # now test mixed reset [6Pthing changes[4Pgit status -sreset --soft [K[K[K[K[Kmixed 
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git reset --mixed [5@# now test mixed reset[C[6Pthing changes[4Pgit status -s
+[31m??[m new1.txt
+[31m??[m new2.txt
+[31m??[m new3.txt
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # now we [K[K[Kall new files untra[K[Kracking
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # now all new files untracking[17Pgit status -sreset --mixed [5@# now test mixed reset[C[C[1P[1P[1P[1P[1@a[1P[1@h[1@a[1@r[C[C[C[C[C[C[C[C
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # now test hard reset all new files untracking[17Pgit status -sreset --mixed [K[K[K[K[K[Khard 
+HEAD is now at 5ccdd0b add some text files
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git reset --hard [5@# now test hard reset[Call new files untracking[17Pgit status -s
+[31m??[m new1.txt
+[31m??[m new2.txt
+[31m??[m new3.txt
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # untracking files not tached
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # now make some commits
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git add new1.txt new.2[K[K2.txt 
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git commit -m "add two new files"
+[master ee19057] add two new files
+ 2 files changed, 2 insertions(+)
+ create mode 100644 new1.txt
+ create mode 100644 new2.txt
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git status -s
+[31m??[m new3.txt
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git add new3.txt 
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git add new3.txt [4Pstatus -scommit -m "add two new files"[7Padd new1.txt new2.txt [3P# now make some commitsuntracking files not tached[16Pgit status -sreset --hard [5@# now test hard reset[C[1P[1P[1P[1P[1@s[1@o[1@f[1@t
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # now test soft reset [5Pgit add new3.tx[C[C[4Pstatus -scommit -m "add two new files"[7Padd new1.txt new2.txt [3P# now make some commitsuntracking files not tached[16Pgit status -sreset --hard [1P [1P [1P [1P s o f t [C H E A D ~ 1 
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git reset --soft HEAD~1 [2P# now test soft reset[C[5Pgit add new3.tx[C[C[4Pstatus -scommit -m "add two new files"status -s[K
+[32mA[m  new1.txt
+[32mA[m  new2.txt
+[32mA[m  new3.txt
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git status -sreset --soft HEAD~1 [2P# now test soft reset[C[5Pgit add new3.tx[C[C[4Pstatus -scommit -m "add two new files"[7Padd new1.txt new2.txt [3P# now make some commitsuntracking files not tached[16Pgit status -sreset --hard [5@# now test hard reset[Call new files untracking[17Pgit status -sreset --mixed [5@# now test mixed reset[C[6Pthing changes[4Pgit status -sreset --soft [4Pstatus -s# test soft reset [8@git add new1.txt new2.tx[C[C[13Pstatus -scat >new3.txtmv new.txt new1.txtw[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pcat >new2.txt[1P.txt#add some filesgit log --oneline --decorate --graph
+[?1h=* [33m5ccdd0b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m add some text files[m
+* [33m73197de[m Test using stash[m
+* [33m805486d[m Add some code to make the program to be more polite ;)[m
+* [33m5f8ba65[m For homework: unstage all added files[m
+* [33ma669070[m For homework: next commit other 2[m
+* [33mc3939b4[m For homework: created 5 files and commit first 3 of them[m
+* [33ma11b766[m Mod test.cpp[m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ #last commit disari[K[Kpie[K[Kearpear
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ #last commit disappeargit log --oneline --decorate --graphstatus -s[Kreset --soft HEAD~1 [2P# now test soft reset[C[5Pgit add new3.tx[C[C[4Pstatus -scommit -m "add two new files"[C[C[C[C[C[C[1P[1P[1P[1@3
+[master c8eef87] add 3 new files
+ 3 files changed, 3 insertions(+)
+ create mode 100644 new1.txt
+ create mode 100644 new2.txt
+ create mode 100644 new3.txt
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git commit -m "add 3 new files"[9P#last commit disappeargit log --oneline --decorate --graphstatus -s[Kreset --soft HEAD~1 [2P# now test soft reset[C[1P[1P[1P[1P[1@m[1@i[1@x[1@e[1@d
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # now test mixed reset git commit -m "add 3 new files"[9P#last commit disappeargit log --oneline --decorate --graphstatus -s[Kreset --soft HEAD~1 [C[1P[1P[1P[1P[1P[1P[1P[C
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git reset HEAD~1 [6@# now test mixed reset[Cgit commit -m "add 3 new files"[9P#last commit disappeargit commit -m "add 3 new files"[9P#last commit disappeargit log --oneline --decorate --graphstatus -s[K
+[31m??[m new1.txt
+[31m??[m new2.txt
+[31m??[m new3.txt
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # the main difference -- all files unstaged
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # the main difference -- all files unstagedgit status -s[Kreset HEAD~1 [6@# now test mixed reset[Cgit commit -m "add 3 new files"[9P#last commit disappeargit log --oneline --decorate --graphstatus -s[Kreset --soft HEAD~1 [2P# now test soft reset[C[5Pgit add new3.tx[C[C[C[C[C[C[C[C[Cm[Knew1.txt new2.txt 
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git add new3.txt new1.txt new2.txt # the main difference -- all files unstagedgit status -s[Kreset HEAD~1 [6@# now test mixed reset[Cgit commit -m "add 3 new files"[8P# now test mixed reset git commit -m "add 3 new files"[9P#last commit disappeargit log --oneline --decorate --graph[14P#last commit disappeargit log --oneline --decorate --graph
+[?1h=* [33m5ccdd0b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m add some text files[m
+* [33m73197de[m Test using stash[m
+* [33m805486d[m Add some code to make the program to be more polite ;)[m
+* [33m5f8ba65[m For homework: unstage all added files[m
+* [33ma669070[m For homework: next commit other 2[m
+* [33mc3939b4[m For homework: created 5 files and commit first 3 of them[m
+* [33ma11b766[m Mod test.cpp[m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git log --oneline --decorate --graph[1Padd new3.txt new1.txt new2.txt # the main difference -- all files unstagedgit status -s[Kreset HEAD~1 [4Pstatus -s
+[32mA[m  new1.txt
+[32mA[m  new2.txt
+[32mA[m  new3.txt
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git status -slog --oneline --decorate --graph[1Padd new3.txt new1.txt new2.txt # the main difference -- all files unstagedgit status -s[Kreset HEAD~1 [6@# now test mixed reset[Cgit commit -m "add 3 new files"
+[master cf632d3] add 3 new files
+ 3 files changed, 3 insertions(+)
+ create mode 100644 new1.txt
+ create mode 100644 new2.txt
+ create mode 100644 new3.txt
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git commit -m "add 3 new files"[18Pstatus -slog --oneline --decorate --graph[1Padd new3.txt new1.txt new2.txt log --oneline --decorate --graph
+[?1h=* [33mcf632d3[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m add 3 new files[m
+* [33m5ccdd0b[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m add some text files[m
+* [33m73197de[m Test using stash[m
+* [33m805486d[m Add some code to make the program to be more polite ;)[m
+* [33m5f8ba65[m For homework: unstage all added files[m
+* [33ma669070[m For homework: next commit other 2[m
+* [33mc3939b4[m For homework: created 5 files and commit first 3 of them[m
+* [33ma11b766[m Mod test.cpp[m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git log --oneline --decorate --graph[5Pcommit -m "add 3 new files"[18Pstatus -slog --oneline --decorate --graph[1Padd new3.txt new1.txt new2.txt # the main difference -- all files unstagedgit status -s[K
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git status -slog --oneline --decorate --graph[5Pcommit -m "add 3 new files"[18Pstatus -slog --oneline --decorate --graph[1Padd new3.txt new1.txt new2.txt # the main difference -- all files unstagedgit status -s[Kreset HEAD~1 [6@# now test mixed reset[C[1P[1P[1P[1P[1P[1@h[1@a[1@r[1@d
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # now test hard reset [9Pgit status -slog --oneline --decorate --graph[5Pcommit -m "add 3 new files"[18Pstatus -slog --oneline --decorate --graph[1Padd new3.txt new1.txt new2.txt # the main difference -- all files unstagedgit status -s[Kreset HEAD~1 [1@-[1@-[1@h[1@a[1@r[1@d[1@ 
+HEAD is now at 5ccdd0b add some text files
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git reset --hard HEAD~1 [2P# now test hard reset[C[9Pgit status -s
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # O NO!!!! I LOST ALL NEW FILES!!! :[K;)
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # O NO!!!! I LOST ALL NEW FILES!!! ;)[24Pgit status -sreset --hard HEAD~1 [2P# now test hard reset[C[9Pgit status -slog --oneline --decorate --graph
+[?1h=* [33m5ccdd0b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m add some text files[m
+* [33m73197de[m Test using stash[m
+* [33m805486d[m Add some code to make the program to be more polite ;)[m
+* [33m5f8ba65[m For homework: unstage all added files[m
+* [33ma669070[m For homework: next commit other 2[m
+* [33mc3939b4[m For homework: created 5 files and commit first 3 of them[m
+* [33ma11b766[m Mod test.cpp[m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git log --oneline --decorate --graph# O NO!!!! I LOST ALL NEW FILES!!! ;)[24Pgit status -s[K[K[K[K[K[K[K[K[Kreflog 
+[?1h=[33m5ccdd0b[m HEAD@{0}: reset: moving to HEAD~1[m
+[33mcf632d3[m HEAD@{1}: commit: add 3 new files[m
+[33m5ccdd0b[m HEAD@{2}: reset: moving to HEAD~1[m
+[33mc8eef87[m HEAD@{3}: commit: add 3 new files[m
+[33m5ccdd0b[m HEAD@{4}: reset: moving to HEAD~1[m
+[33mee19057[m HEAD@{5}: commit: add two new files[m
+[33m5ccdd0b[m HEAD@{6}: reset: moving to HEAD[m
+[33m5ccdd0b[m HEAD@{7}: reset: moving to HEAD[m
+[33m5ccdd0b[m HEAD@{8}: reset: moving to HEAD[m
+[33m5ccdd0b[m HEAD@{9}: checkout: moving from C_version to master[m
+[33m30e5a02[m HEAD@{10}: commit: add new files: .gitignore and makefile[m
+[33m42898b5[m HEAD@{11}: reset: moving to HEAD~2[m
+[33md1d9f73[m HEAD@{12}: reset: moving to HEAD[m
+[33md1d9f73[m HEAD@{13}: commit (amend): add new files .gitignore and makefile[m
+[33mb3a5477[m HEAD@{14}: commit: add .gitignore and makefile[m
+[33m0606293[m HEAD@{15}: commit: add empty commit[m
+[33m42898b5[m HEAD@{16}: checkout: moving from master to C_version[m
+[33m5ccdd0b[m HEAD@{17}: commit: add some text files[m
+[33m73197de[m HEAD@{18}: merge refs/remotes/origin/master: Fast-forward[m
+[33m805486d[m HEAD@{19}: merge add_some_code: Fast-forward[m
+[33m5f8ba65[m HEAD@{20}: checkout: moving from add_some_code to master[m
+[33m805486d[m HEAD@{21}: commit: Add some code to make the program to be more polite ;)[m
+[33m5f8ba65[m HEAD@{22}: checkout: moving from master to add_some_code[m
+[33m5f8ba65[m HEAD@{23}: commit: For homework: unstage all added files[m
+[33ma669070[m HEAD@{24}: commit: For homework: next commit other 2[m
+[33mc3939b4[m HEAD@{25}: commit: For homework: created 5 files and commit first 3 of them[m
+[33ma11b766[m HEAD@{26}: checkout: moving from C_version to master[m
+[33m42898b5[m HEAD@{27}: checkout: moving from master to C_version[m
+[33ma11b766[m HEAD@{28}: checkout: moving from master to master[m
+[33ma11b766[m HEAD@{29}: checkout: moving from C_version to master[m
+[33m42898b5[m HEAD@{30}: rebase -i (finish): returning to refs/heads/C_version[m
+[33m42898b5[m HEAD@{31}: rebase -i (pick): Edited test.c[m
+[33ma407908[m HEAD@{32}: rebase -i (reword): Renamed test.cpp to test.c[m
+[33m80505f3[m HEAD@{33}: rebase -i (reword): Renamed test.cpp to test.c and edited it[m
+[33m151605b[m HEAD@{34}: rebase -i (reword): Edit test.c[m
+[33ma11b766[m HEAD@{35}: cherry-pick: fast-forward[m
+[33m92d6600[m HEAD@{36}: rebase -i (start): checkout HEAD~3[m
+[33m52eed96[m HEAD@{37}: commit: Edited test.c[m
+[33m183ba9d[m HEAD@{38}: commit: Renamed test.cpp to test.c and edited it[m
+[33ma11b766[m HEAD@{39}: checkout: moving from master to C_version[m
+[33ma11b766[m HEAD@{40}: commit: Mod test.cpp[m
+[33m92d6600[m HEAD@{41}: clone: from git@github.com:NestorRnD/MyProjects.git[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ c[Kgit checkout cf632d3
+Note: checking out 'cf632d3'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at cf632d3... add 3 new files
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git checkout cf632d3[9Preflog log --oneline --decorate --graph# O NO!!!! I LOST ALL NEW FILES!!! ;)[24Pgit status -s
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  LICENSE  new1.txt  new2.txt  new3.txt  README.md  [0m[01;32mtest[0m  test.cpp
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # Hear we have lost files
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git re[K[Kchecho[K[Kkout master 
+Warning: you are leaving 1 commit behind, not connected to
+any of your branches:
+
+  cf632d3 add 3 new files
+
+If you want to keep it by creating a new branch, this may be a good time
+to do so with:
+
+ git branch <new-branch-name> cf632d3
+
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git checkout master # Hear we have lost filesls[K
+1.txt  2.txt  3.txt  4.txt  5.txt  LICENSE  README.md  [0m[01;32mtest[0m  test.cpp
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ lsgit checkout master # Hear we have lost filesls[Kgit status -scheckout cf632d3[9Preflog log --oneline --decorate --graph
+[?1h=* [33m5ccdd0b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m add some text files[m
+* [33m73197de[m Test using stash[m
+* [33m805486d[m Add some code to make the program to be more polite ;)[m
+* [33m5f8ba65[m For homework: unstage all added files[m
+* [33ma669070[m For homework: next commit other 2[m
+* [33mc3939b4[m For homework: created 5 files and commit first 3 of them[m
+* [33ma11b766[m Mod test.cpp[m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git reser[Kt cf632d3 new1.txt new2.txt new3.txt
+Unstaged changes after reset:
+D	new1.txt
+D	new2.txt
+D	new3.txt
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git reset cf632d3 new1.txt new2.txt new3.txt[8Plog --oneline --decorate --graphls[Kgit checkout master # Hear we have lost filesls[Kgit status -scheckout cf632d3[7Pstatus -s
+[32mA[m[31mD[m new1.txt
+[32mA[m[31mD[m new2.txt
+[32mA[m[31mD[m new3.txt
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # we can use [C[C[C[C[C[C[C[C[C[C[C[C[Cthis file[C[C[C[C[C"file"filed"filee"filel"filee"filet"filee"filed"file[C file[1P[1P[1P[1P[1P[1P[1P[1@l[1@o[1@s[1@t[1@e[1@d[C[C[C[C[C[Cs :)[K[K;)
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # we can use this "losted" files ;)[22Pgit status -sreset cf632d3 new1.txt new2.txt new3.txt[8Plog --oneline --decorate --graphls[Kgit checkout master # Hear we have lost filesls[Kgit status -scheckout cf632d3[9Preflog log --oneline --decorate --graph# O NO!!!! I LOST ALL NEW FILES!!! ;)[24Pgit status -sreset --hard HEAD~1 [2P# now test hard reset[C[9Pgit status -slog --oneline --decorate --graph[5Pcommit -m "add 3 new files"
+[master cc02793] add 3 new files
+ 3 files changed, 3 insertions(+)
+ create mode 100644 new1.txt
+ create mode 100644 new2.txt
+ create mode 100644 new3.txt
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git commit -m "add 3 new files"# we can use this "losted" files ;)[22Pgit status -s
+ [31mD[m new1.txt
+ [31mD[m new2.txt
+ [31mD[m new3.txt
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git status -scommit -m "add 3 new files"# we can use this "losted" files ;)[22Pgit status -sreset cf632d3 new1.txt new2.txt new3.txt[8Plog --oneline --decorate --graphls[Kgit log --oneline --decorate --graph
+[?1h=* [33mcc02793[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m add 3 new files[m
+* [33m5ccdd0b[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m add some text files[m
+* [33m73197de[m Test using stash[m
+* [33m805486d[m Add some code to make the program to be more polite ;)[m
+* [33m5f8ba65[m For homework: unstage all added files[m
+* [33ma669070[m For homework: next commit other 2[m
+* [33mc3939b4[m For homework: created 5 files and commit first 3 of them[m
+* [33ma11b766[m Mod test.cpp[m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git push
+Enter passphrase for key '/home/nestor/.ssh/id_rsa': 
+Counting objects: 5, done.
+Delta compression using up to 2 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 380 bytes | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:NestorRnD/MyProjects.git
+   5ccdd0b..cc02793  master -> master
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # now switch to user2
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ cd ~2
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ git branch
+* [32mmaster[m
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ git fea[Ktch 
+Enter passphrase for key '/home/nestor/.ssh/id_rsa': 
+remote: Enumerating objects: 17, done.[K
+remote: Counting objects:   5% (1/17)[Kremote: Counting objects:  11% (2/17)[Kremote: Counting objects:  17% (3/17)[Kremote: Counting objects:  23% (4/17)[Kremote: Counting objects:  29% (5/17)[Kremote: Counting objects:  35% (6/17)[Kremote: Counting objects:  41% (7/17)[Kremote: Counting objects:  47% (8/17)[Kremote: Counting objects:  52% (9/17)[Kremote: Counting objects:  58% (10/17)[Kremote: Counting objects:  64% (11/17)[Kremote: Counting objects:  70% (12/17)[Kremote: Counting objects:  76% (13/17)[Kremote: Counting objects:  82% (14/17)[Kremote: Counting objects:  88% (15/17)[Kremote: Counting objects:  94% (16/17)[Kremote: Counting objects: 100% (17/17)[Kremote: Counting objects: 100% (17/17), done.[K
+remote: Compressing objects:  20% (1/5)[Kremote: Compressing objects:  40% (2/5)[Kremote: Compressing objects:  60% (3/5)[Kremote: Compressing objects:  80% (4/5)[Kremote: Compressing objects: 100% (5/5)[Kremote: Compressing objects: 100% (5/5), done.[K
+remote: Total 15 (delta 1), reused 15 (delta 1), pack-reused 0[K
+Unpacking objects:   6% (1/15)   Unpacking objects:  13% (2/15)   Unpacking objects:  20% (3/15)   Unpacking objects:  26% (4/15)   Unpacking objects:  33% (5/15)   Unpacking objects:  40% (6/15)   Unpacking objects:  46% (7/15)   Unpacking objects:  53% (8/15)   Unpacking objects:  60% (9/15)   Unpacking objects:  66% (10/15)   Unpacking objects:  73% (11/15)   Unpacking objects:  80% (12/15)   Unpacking objects:  86% (13/15)   Unpacking objects:  93% (14/15)   Unpacking objects: 100% (15/15)   Unpacking objects: 100% (15/15), done.
+From github.com:NestorRnD/MyProjects
+   73197de..cc02793  master     -> origin/master
+   42898b5..30e5a02  C_version  -> origin/C_version
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ git fetch branch[5Pcd ~2# now switch to user2[13Pgit pushlog --oneline --decorate --graph
+[?1h=* [33m73197de[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m Test using stash[m
+* [33m805486d[m Add some code to make the program to be more polite ;)[m
+* [33m5f8ba65[m For homework: unstage all added files[m
+* [33ma669070[m For homework: next commit other 2[m
+* [33mc3939b4[m For homework: created 5 files and commit first 3 of them[m
+* [33ma11b766[m Mod test.cpp[m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ git log --oneline --decorate --graph --all
+[?1h=* [33mcc02793[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m add 3 new files[m
+* [33m5ccdd0b[m add some text files[m
+* [33m73197de[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m Test using stash[m
+* [33m805486d[m Add some code to make the program to be more polite ;)[m
+* [33m5f8ba65[m For homework: unstage all added files[m
+* [33ma669070[m For homework: next commit other 2[m
+* [33mc3939b4[m For homework: created 5 files and commit first 3 of them[m
+* [33ma11b766[m Mod test.cpp[m
+[31m|[m * [33m30e5a02[m[33m ([m[1;31morigin/C_version[m[33m)[m add new files: .gitignore and makefile[m
+[31m|[m * [33m42898b5[m Edited test.c[m
+[31m|[m * [33ma407908[m Renamed test.cpp to test.c[m
+[31m|[m * [33m151605b[m Edit test.c[m
+[31m|[m[31m/[m  [m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ # or [K[K[Khere new commits in remote repository
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ # othen way to check
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ git branch -vv
+* [32mmaster[m 73197de [[34morigin/master[m: behind 2] Test using stash
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ # we behind 2 commo[Kits
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ git mar[K[Kerge
+Updating 73197de..cc02793
+Fast-forward
+ 2.txt    | 1 [32m+[m
+ 3.txt    | 1 [32m+[m
+ 4.txt    | 1 [32m+[m
+ 5.txt    | 1 [32m+[m
+ new1.txt | 1 [32m+[m
+ new2.txt | 1 [32m+[m
+ new3.txt | 1 [32m+[m
+ 7 files changed, 7 insertions(+)
+ create mode 100644 2.txt
+ create mode 100644 3.txt
+ create mode 100644 4.txt
+ create mode 100644 5.txt
+ create mode 100644 new1.txt
+ create mode 100644 new2.txt
+ create mode 100644 new3.txt
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ # now go to user1
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ cd ~1
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  LICENSE  README.md  [0m[01;32mtest[0m  test.cpp
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ lscd ~1# now go to user1cd ~1[K# now go to user1[8Pgit merge# we behind 2 commits[7Pgit branch -vv# othen way to checkhere new commits in remote repositorygit log --oneline --decorate --graph --all[Kfetch [Kbranch[5Pcd ~2# now switch to user2[13Pgit pushlog --oneline --decorate --graphstatus -s[Kcommit -m "add 3 new files"# we can use this "losted" files ;)[4Pgit commit -m "add 3 new files"[18Pstatus -s
+ [31mD[m new1.txt
+ [31mD[m new2.txt
+ [31mD[m new3.txt
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # user 1 wont [1P[1@a[C[C[Cremove last commit ()b)u)t) )i)t) )w)o)t)h)[C[C[C[1P)[1P)[1P)a)s) )p)u)s)h)e)d)[C
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # user 1 want remove last commit (but it was pushed)git status -s[Kls[Kcd ~1# now go to user1[8Pgit merge# we behind 2 commits[7Pgit branch -vv# othen way to checkhere new commits in remote repositorygit log --oneline --decorate --graph --all[Kfetch [Kbranch[5Pcd ~2# now switch to user2[13Pgit pushlog --oneline --decorate --graphstatus -s[Kcommit -m "add 3 new files"# we can use this "losted" files ;)[22Pgit status -sreset cf632d3 new1.txt new2.txt new3.txt[8Plog --oneline --decorate --graphls[Kgit checkout master # Hear we have lost filesls[Kgit status -scheckout cf632d3[9Preflog log --oneline --decorate --graph# O NO!!!! I LOST ALL NEW FILES!!! ;)[24Pgit status -sreset --hard HEAD~1 [2P# now test hard reset[C[2@git reset --hard HEAD~1[C
+HEAD is now at 5ccdd0b add some text files
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git reset --hard HEAD~1 # user 1 want remove last commit (but it was pushed)git status -s[K
+[31m??[m test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git status -sreset --hard HEAD~1 # user 1 want remove last commit (but it was pushed)[28Pgit reset --hard HEAD~1 [11Pstatus -s[Kls
+1.txt  2.txt  3.txt  4.txt  5.txt  LICENSE  README.md  [0m[01;32mtest[0m  test.cpp
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # no more new files !!!
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ gti[K[K[Kgit push
+Enter passphrase for key '/home/nestor/.ssh/id_rsa': 
+To github.com:NestorRnD/MyProjects.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:NestorRnD/MyProjects.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # now try forse
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # now try forse[7Pgit push --force
+Enter passphrase for key '/home/nestor/.ssh/id_rsa': 
+Total 0 (delta 0), reused 0 (delta 0)
+To github.com:NestorRnD/MyProjects.git
+ + cc02793...5ccdd0b master -> master (forced update)
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # it was dangerous but user 1 do it[1P[C[C[C[C[C[C[C/[K.
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ now [K[K[K[K# now make new commit
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ cat >.gitignore
+test
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # no more test in go[Kit status
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git status -s
+[31m??[m .gitignore
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git add .gitignore 
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git add .gitignore [6Pstatus -s# no more test in git status[15Pgit status -s[K[K[K[K[K[K[K[K[Kcommit -m ""a"d"d" "."g"i"t"i"g"n"o"r"e"
+[master 2144ff9] add .gitignore
+ 1 file changed, 1 insertion(+)
+ create mode 100644 .gitignore
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git commit -m "add .gitignore"[11Padd .gitignore [6Pstatus -s# no more test in git status[13Pcat >.gitignore# no more test in git status[15Pgit status -s[K[K[K[K[K[K[K[K[Kpush
+Enter passphrase for key '/home/nestor/.ssh/id_rsa': 
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 284 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:NestorRnD/MyProjects.git
+   5ccdd0b..2144ff9  master -> master
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git pushcommit -m "add .gitignore"[11Padd .gitignore [6Pstatus -s# no more test in git status[13Pcat >.gitignore# now make new commitit was dangerous but user1 do it.[19Pgit push --force[1P# now try forse[7Pgit push# no more new files !!!ls[Kgit status -sreset --hard HEAD~1 # user 1 want remove last commit (but it was pushed)git status -s[Kls[Kcd ~1# now go to user1[8Pgit merge# we behind 2 commits[7Pgit branch -vv# othen way to checkhere new commits in remote repositorygit log --oneline --decorate --graph --all
+[?1h=* [33m2144ff9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m add .gitignore[m
+* [33m5ccdd0b[m add some text files[m
+* [33m73197de[m Test using stash[m
+* [33m805486d[m Add some code to make the program to be more polite ;)[m
+* [33m5f8ba65[m For homework: unstage all added files[m
+* [33ma669070[m For homework: next commit other 2[m
+* [33mc3939b4[m For homework: created 5 files and commit first 3 of them[m
+* [33ma11b766[m Mod test.cpp[m
+[31m|[m * [33m30e5a02[m[33m ([m[1;31morigin/C_version[m[33m, [m[1;32mC_version[m[33m)[m add new files: .gitignore and makefile[m
+[31m|[m * [33m42898b5[m Edited test.c[m
+[31m|[m * [33ma407908[m Renamed test.cpp to test.c[m
+[31m|[m * [33m151605b[m Edit test.c[m
+[31m|[m[31m/[m  [m
+* [33m92d6600[m Update test.cpp[m
+* [33m8a61906[m Create test.cpp[m
+* [33ma3a1ead[m Initial commit[m
+[K[?1l>]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # user 1[K[K1 think all ok[1@:[C[C[C[C[C[C[C
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # now go to user2
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ ~[Kcd ~2
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ git status -s
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ git status -s[K[K[K[K[K[K[K[K[K[K[K[K[K# add som [Ke changes
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  LICENSE  new1.txt  new2.txt  new3.txt  README.md  test.cpp
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ echo "new line" >>new1.txt
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ cat new1.txt 
+new file1
+new line
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ ma[K[K# make commit
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ # make commitcat new1.txt # make commitcat new1.txt echo "new line" >>new1.txtls[K# add some changes[5Pgit status -s[8Pcd ~2# now go to user2user1 think: all okgit log --oneline --decorate --graph --allpush[Kcommit -m "add .gitignore"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"c"h"a"n"g"e" "n"e"w"1"."t"x"t"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	[31mmodified:   new1.txt[m
+
+no changes added to commit
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ # [K[K# o no
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ git add new1[6P# o nogit commit -m "change new1.txt"[C[1@-[1@a[1@ 
+[master d314734] change new1.txt
+ 1 file changed, 1 insertion(+)
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ # try to pull
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ # try to pullgit commit -a -m "change new1.txt"# o no[Kgit commit -a -m "change new1.txt"[21P# try to pull[K# try to pullgit commit -a -m "change new1.txt"# o no[Kgit commit -m "change new1.txt"[18P# make commitcat new1.txt echo "new line" >>new1.txtls[K# add some changes[5Pgit status -s[8Pcd ~2# now go to user2user1 think: all okgit log --oneline --decorate --graph --allpush[K[K[Kll
+Enter passphrase for key '/home/nestor/.ssh/id_rsa': 
+remote: Enumerating objects: 4, done.[K
+remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects: 100% (1/1)[Kremote: Compressing objects: 100% (1/1), done.[K
+remote: Total 3 (delta 1), reused 3 (delta 1), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+From github.com:NestorRnD/MyProjects
+ + cc02793...2144ff9 master     -> origin/master  (forced update)
+[?1000h[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;51r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[51;1H"~/work/GL/Embedded_C/MyRepos/Other user/MyProjects/.git/MERGE_MSG" 7L, 284C[>c[27m[23m[m[H[2J[1;1H[93mMerge branch 'master' of github.com:NestorRnD/MyPr[mojects
+
+[96m# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.[m
+[94m~                                                                                                                             [9;1H~                                                                                                                             [10;1H~                                                                                                                             [11;1H~                                                                                                                             [12;1H~                                                                                                                             [13;1H~                                                                                                                             [14;1H~                                                                                                                             [15;1H~                                                                                                                             [16;1H~                                                                                                                             [17;1H~                                                                                                                             [18;1H~                                                                                                                             [19;1H~                                                                                                                             [20;1H~                                                                                                                             [21;1H~                                                                                                                             [22;1H~                                                                                                                             [23;1H~                                                                                                                             [24;1H~                                                                                                                             [25;1H~                                                                                                                             [26;1H~                                                                                                                             [27;1H~                                                                                                                             [28;1H~                                                                                                                             [29;1H~                                                                                                                             [30;1H~                                                                                                                             [31;1H~                                                                                                                             [32;1H~                                                                                                                             [33;1H~                                                                                                                             [34;1H~                                                                                                                             [35;1H~                                                                                                                             [36;1H~                                                                                                                             [37;1H~                                                                                                                             [38;1H~                                                                                                                             [39;1H~                                                                                                                             [40;1H~                                                                                                                             [41;1H~                                                                                                                             [42;1H~                                                                                                                             [43;1H~                                                                                                                             [44;1H~                                                                                                                             [45;1H~                                                                                                                             [46;1H~                                                                                                                             [47;1H~                                                                                                                             [48;1H~                                                                                                                             [49;1H~                                                                                                                             [50;1H~                                                                                                                             [m[51;109H1,1[11CУ[51;124Hс[51;125Hе[51;1H"~/work/GL/Embedded_C/MyRepos/Other user/MyProjects/.git/MERGE_MSG" 7L, 284C[32C   [11C   [1;1H[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\]2;MERGE_MSG (~/work/GL/Embedded_C/MyRepos/Other user/MyProjects/.git) - VIM]1;MERGE_MSG[?12l[?25h[?25l[51;99H^M[1;1H[51;99H  [2;1H[51;109H2,0-1[9CУ[51;124Hс[51;125Hе[2;1H[?12l[?25h[?25l[51;99H:[2;1H[51;1H[K[51;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l[?1006l[?1002l".git/MERGE_MSG" 7L, 284C з[51;28Hа[51;29Hп[51;30Hи[51;31Hс[51;32Hа[51;33Hн[51;34Hи[51;35Hй[51;1H]2;Термінал - nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects]1;Термінал - nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects
+[?1l>[?12l[?25h[?1049lMerge made by the 'recursive' strategy.
+ .gitignore | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 .gitignore
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ git pull[5@# try to[C[C[C[C[Cgit commit -a -m "change new1.txt"# o no[Kgit commit -m "change new1.txt"[18P# make commitcat new1.txt echo "new line" >>new1.txtls[K# add some changes[5Pgit status -s
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  LICENSE  new1.txt  new2.txt  new3.txt  README.md  test.cpp
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ # now push
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ # now pushls[Kgit status -s[5Ppull[K[Ksh
+Enter passphrase for key '/home/nestor/.ssh/id_rsa': 
+Counting objects: 10, done.
+Delta compression using up to 2 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 867 bytes | 0 bytes/s, done.
+Total 10 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 1 local object.[K
+To github.com:NestorRnD/MyProjects.git
+   2144ff9..62aee0c  master -> master
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ # go to user1
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/Other user/MyProjects[00m$ cg [K[Kd ~1
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git fea[Ktch 
+Enter passphrase for key '/home/nestor/.ssh/id_rsa': 
+remote: Enumerating objects: 12, done.[K
+remote: Counting objects:   8% (1/12)[Kremote: Counting objects:  16% (2/12)[Kremote: Counting objects:  25% (3/12)[Kremote: Counting objects:  33% (4/12)[Kremote: Counting objects:  41% (5/12)[Kremote: Counting objects:  50% (6/12)[Kremote: Counting objects:  58% (7/12)[Kremote: Counting objects:  66% (8/12)[Kremote: Counting objects:  75% (9/12)[Kremote: Counting objects:  83% (10/12)[Kremote: Counting objects:  91% (11/12)[Kremote: Counting objects: 100% (12/12)[Kremote: Counting objects: 100% (12/12), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 10 (delta 3), reused 10 (delta 3), pack-reused 0[K
+Unpacking objects:  10% (1/10)   Unpacking objects:  20% (2/10)   Unpacking objects:  30% (3/10)   Unpacking objects:  40% (4/10)   Unpacking objects:  50% (5/10)   Unpacking objects:  60% (6/10)   Unpacking objects:  70% (7/10)   Unpacking objects:  80% (8/10)   Unpacking objects:  90% (9/10)   Unpacking objects: 100% (10/10)   Unpacking objects: 100% (10/10), done.
+From github.com:NestorRnD/MyProjects
+   2144ff9..62aee0c  master     -> origin/master
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  LICENSE  README.md  [0m[01;32mtest[0m  test.cpp
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git status -s
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git branch -vv
+  C_version[m 30e5a02 [[34morigin/C_version[m] add new files: .gitignore and makefile
+* [32mmaster   [m 2144ff9 [[34morigin/master[m: behind 3] add .gitignore
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # I have older version [K.
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ git merge
+Updating 2144ff9..62aee0c
+Fast-forward
+ new1.txt | 2 [32m++[m
+ new2.txt | 1 [32m+[m
+ new3.txt | 1 [32m+[m
+ 3 files changed, 4 insertions(+)
+ create mode 100644 new1.txt
+ create mode 100644 new2.txt
+ create mode 100644 new3.txt
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # Wath was hepend?? I remove all New[K[K[Knew?.txt files [K/ [K[K. ;)
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ # Bed usind reset demo [K. ENDTENDHEND[CEND END[C[C[C
+]0;nestor@TNLMAIN: ~/work/GL/Embedded_C/MyRepos/MyProjects[01;32mnestor@TNLMAIN[00m:[01;34m~/work/GL/Embedded_C/MyRepos/MyProjects[00m$ exit
+
+Script done on нд, 10-лис-2019 23:47:41 +0200
